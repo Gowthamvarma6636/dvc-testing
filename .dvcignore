@@ -1,0 +1,4 @@
+# Files inside DVC-tracked folders that DVC should ignore (not version them).
+# YOLO/Ultralytics regenerate these on every training run, so versioning them
+# would create meaningless dataset changes.
+*.cache

@@ -1,0 +1,36 @@
+# ---- Python / env ----
+venv/
+__pycache__/
+*.pyc
+
+# ---- Large binaries that should NOT go into git ----
+# Raw dataset archives (keep out of git; version the extracted dataset via DVC instead)
+*.zip
+# Model weights (track via DVC later if you want; not in git)
+*.pt
+# Training logs & run outputs
+*.log
+runs/
+
+# ---- YOLO auto-generated caches (regenerated every run) ----
+*.cache
+
+# ---- Datasets not (yet) tracked by DVC ----
+# The DVC-tracked dataset (06-07-26_cumi) is ignored automatically by its own
+# .gitignore that `dvc add` creates. These other datasets are left untracked
+# for now so the test stays focused:
+/03-07-26_airport/
+/04-07-26_airport/
+/06-07-26_airport/
+/14-05-26_bucket_split/
+/23-06-26_split/
+/POC/
+/airport/
+/bucket_15-05-26/
+/class_3_dataset/
+/cumi/
+/dlf_2/
+/gas/
+/highway/
+xaa
+/06-07-26_cumi
