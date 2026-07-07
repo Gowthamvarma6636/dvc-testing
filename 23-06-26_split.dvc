@@ -1,0 +1,6 @@
+outs:
+- md5: 4fd787c978c8ebc13eae3ab2a463b5fd.dir
+  size: 14372523948
+  nfiles: 32767
+  hash: md5
+  path: 23-06-26_split
