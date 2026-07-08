@@ -1,9 +1,20 @@
 train: images/train
 val: images/val
 
-nc: 10
+nc: 15
 names:
-  - cisf
-  - staff
   - person
-  - executive
+  - shoe_cover
+  - shoe
+  - goggles
+  - no_goggles
+  - helmet
+  - head
+  - apron
+  - crane
+  - fire
+  - smoke
+  - gloves
+  - object
+  - robot_machine
+  - hands
